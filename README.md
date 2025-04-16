@@ -24,5 +24,10 @@ On Windows (PowerShell or CMD):
     tasklist | findstr ollama
 
 If you want to fully shut it down (not just a model), you can stop the Ollama server like this:
-
+    
     taskkill /F /IM ollama.exe
+    
+Starting streamlit run:  
+
+    streamlit run main.py
+
